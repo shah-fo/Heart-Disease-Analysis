@@ -21,7 +21,11 @@ The original data came from the Cleavland data from the UCI Machine Learning Rep
 
 There is also a version of it available on Kaggle. https://www.kaggle.com/datasets/sumaiyatasmeem/heart-disease-classification-dataset
 
+#### EDA
+
 ![Heart-Disease-as-per-sex](img/image1.png)
+
+As seen here, it can be noted that number of females having heart disease tends to be more than that of males.
 
 
 ## 3. Evaluation 
