@@ -36,6 +36,14 @@ This plot suggests that the ratio of heart-disease to chest pain type increases 
 
 > If we can reach 95% accuracy at predicting whether or not a patient has heart disease during the proof of concept, we'll pursue the project.
 
+![Baseline model accuracies](img/image0.png)
+
+These results provide insights into the relative performance of each model, with Logistic Regression emerging as the most accurate, followed by Random Forest, and KNN with the lowest accuracy.
+
+![Baseline model accuracies](img/image4.png)
+
+Given the superior performance of Logistic Regression among our baseline models, we conducted a GridSearchCV to fine-tune its parameters. The resulting metrics are visualized in the bar graph above.
+
 ## 4. Features
 
 **Create data dictionary**
