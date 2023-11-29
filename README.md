@@ -25,7 +25,11 @@ There is also a version of it available on Kaggle. https://www.kaggle.com/datase
 
 ![Heart-Disease-as-per-sex](img/image1.png)
 
-As seen here, it can be noted that number of females having heart disease tends to be more than that of males.
+This bar chart suggests that number of females having heart disease tends to be more than that of males.
+
+![Heart-Disease-as-per-cp-type](img/image2.png)
+
+This plot suggests that the ratio of heart-disease to chest pain type increases with the increase in chest-pain. It is surprising to see that people with type 2 chest pain tends to have maximum risk of heart-disease while in the data dictionary it specifies that chest-pain type 2 is non-heart related pain.
 
 
 ## 3. Evaluation 
@@ -72,3 +76,20 @@ As seen here, it can be noted that number of females having heart disease tends 
     * 7: reversable defect: no proper blood movement when excercising
 14. target - have disease or not (1=yes, 0=no) (= the predicted attribute)
 
+#### Feature Importance
+
+![Feature importance](img/image3.png)
+
+After conducting a feature importance analysis on the dataset, the following insights were gained:
+
+**Positive Correlation:**
+* The feature 'cp' (chest pain type) exhibits the highest positive correlation with heart disease.
+
+**Negative Correlation:**
+* On the contrary, 'sex' shows the most negative correlation with heart disease.
+
+**Minimal Correlation:**
+* Features such as 'chol' (cholesterol), 'age', 'trestbps' (resting blood pressure), 'thalach' (maximum heart rate) demonstrate minimal correlation with the dataset.
+
+**Future Modeling Considerations**
+* Based on these findings, future iterations of modeling may benefit from excluding 'chol', 'age', 'trestbps', and 'thalach' to potentially enhance accuracy. This strategic approach aims to streamline the model and focus on the most impactful features for better predictive performance.
