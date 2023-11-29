@@ -25,11 +25,11 @@ There is also a version of it available on Kaggle. https://www.kaggle.com/datase
 
 ![Heart-Disease-as-per-sex](img/image1.png)
 
-This bar chart suggests that number of females having heart disease tends to be more than that of males.
+The bar chart indicates a notable trend: the number of females with heart disease tends to surpass that of males. This observation sheds light on potential gender disparities in the prevalence of heart disease within our dataset.
 
 ![Heart-Disease-as-per-cp-type](img/image2.png)
 
-This plot suggests that the ratio of heart-disease to chest pain type increases with the increase in chest-pain. It is surprising to see that people with type 2 chest pain tends to have maximum risk of heart-disease while in the data dictionary it specifies that chest-pain type 2 is non-heart related pain.
+The plot reveals a noteworthy trend indicating that the ratio of heart disease to chest pain type increases with the severity of chest pain. Surprisingly, individuals with type 2 chest pain exhibit the highest risk of heart disease. It's worth noting that, according to the data dictionary, chest pain type 2 is specified as non-heart-related pain. This unexpected finding emphasizes the complexity of the relationship between chest pain types and the risk of heart disease in our dataset
 
 
 ## 3. Evaluation 
