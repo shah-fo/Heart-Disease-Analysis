@@ -21,6 +21,9 @@ The original data came from the Cleavland data from the UCI Machine Learning Rep
 
 There is also a version of it available on Kaggle. https://www.kaggle.com/datasets/sumaiyatasmeem/heart-disease-classification-dataset
 
+![Heart-Disease-as-per-sex](img/image1.png)
+
+
 ## 3. Evaluation 
 
 > If we can reach 95% accuracy at predicting whether or not a patient has heart disease during the proof of concept, we'll pursue the project.
@@ -64,3 +67,4 @@ There is also a version of it available on Kaggle. https://www.kaggle.com/datase
     * 6: fixed defect: used to be defect but ok now
     * 7: reversable defect: no proper blood movement when excercising
 14. target - have disease or not (1=yes, 0=no) (= the predicted attribute)
+
